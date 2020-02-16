@@ -1,0 +1,80 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/* 
+================================
+HEADER
+================================
+*/
+
+.slider {
+    min-height: 30vh;
+    margin-top: -10px;
+    background: url(../img/bg-bootstrap.png) center/cover no-repeat fixed;
+    background-color: #343a40!important;
+    clip-path: polygon(100% 48%, 0% 85%, 0% 0%, 100% 0%);
+}
+
+.height {
+    min-height: 90vh;
+}
+
+
+/* 
+================================
+SKILLS
+================================
+*/
+
+.title-underline {
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+
+/* 
+================================
+ABOUT
+================================
+*/
+
+.height-80 {
+    min-height: 80vh;
+}
+
+.about-picture {
+    background: url(../img//about-bcg.jpeg) center/cover fixed no-repeat;
+}
+
+
+/* 
+================================
+FILLER
+================================
+*/
+
+#filler,
+#progress {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(10, 4, 4, 0.9)), url(../img/projects-2.jpeg) center/cover fixed no-repeat;
+}
+
+
+/* 
+================================
+PROGRESS
+================================
+*/
+
+.bg-purple {
+    background: #563D7C;
+}
+
+
+/* Smooth scroll */
+
+html {
+    scroll-behavior: smooth;
+}
